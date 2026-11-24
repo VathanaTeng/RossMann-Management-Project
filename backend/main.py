@@ -28,7 +28,7 @@ def conn():
 #By default, a row is a plain tuple like (1, 'Shop A', 'a', ...). You can only get values by position: row[0], row[1].
 #With sqlite3.Row, you can also get values by column name: row['StoreName']. You can even convert it with dict(row) to make the dictionary that FastAPI sends back as JSON.
 
-
+#test git
 #
 def init_db():
     with conn() as c:
